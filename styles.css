@@ -55,11 +55,6 @@ a:hover {
 .user-info {
   text-align: left;
 }
-
-img {
-  border-radius: 5%;
-}
-
 @media (min-width: 600px) {
   #live-clock {
     font-size: 60px;
