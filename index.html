@@ -15,30 +15,37 @@
   <body>
     <div>
       <div>
-        <p id="live-clock"></p>
+        <p data-testid="currentTimeUTC" id="live-clock"></p>
       </div>
       <div id="user">
         <div id="user-image">
-          <img />
+          <img
+            data-testid="slackProfilePicture"
+            src="asserts/images/profile-image.jpg"
+            alt="Sadiq profile picture"
+          />
         </div>
         <div class="user-info">
-          <p id="user-day"></p>
-          <p id="user-name"></p>
-          <p id="user-email"></p>
+          <p data-testid="currentDay" id="user-day"></p>
+          <p data-testid="slackDisplayName">Akhigbe Sadiq</p>
+          <p data-testid="slackEmail">akhigbesadiq@gmail.com</p>
           <div class="button">
             <a
+              data-testid="hngLink"
               href="https://hng.tech/learn"
               target="_blank"
               rel="noopener noreferrer"
               >hngTech</a
             >
             <a
+              data-testid="keywordLink"
               href="https://keyword.dog/"
               target="_blank"
               rel="noopener noreferrer"
               >Keyword</a
             >
             <a
+              data-testid="scrapeanywebLink"
               href="https://scrapeanyweb.site/"
               target="_blank"
               rel="noopener noreferrer"
